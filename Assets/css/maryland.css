@@ -67,6 +67,8 @@ display:flex;
 #mySidenav {
     display: none;
   }
+  
+
 }
 
 
@@ -94,7 +96,7 @@ display:none;
 
 }
 #learn{
-  font-size:30px !important;
+  font-size:20px !important;
 }
 .learnp{
       font-size:14px !important;
@@ -109,13 +111,38 @@ display:none;
 
 #explore{
 height:50px !important;
-margin-top:-45px !important;
+margin-top:-37px !important;
 }
 .pin{
   display:none !important;
 }
 .sidenavright{
   display:none !important;
+}
+.divi{
+  padding-left:30px !important
+}
+.grid:hover{
+  height:235px !important;
+  margin-top:-235px !important;
+}
+.voice{
+  margin-top:-70px !important;
+}
+.tab-bg, .testifier{
+  margin-bottom:50px !important;
+}
+.tab-bg{
+  display:flex !important;
+}
+.tablinks9{
+  font-size:11px !important;
+}
+.top-gallery{
+  margin-left:-30px !important;
+}
+.esb{
+  margin-left:110px !important;
 }
 }
 
@@ -126,18 +153,45 @@ margin-top:-45px !important;
   margin-top:-300px;
 }
 
+/* #landing-vids{
+  margin-top:-300px;
+} */
 
+/* 
 .navbar{
+  
   background:linear-gradient( rgba(0,128,0,0.6), rgba(255, 255, 255, 0) 100%);
 
- background: -moz-linear-gradient( rgba(0,128,0,0.6), rgba(255, 255, 255, 0) 100%);
+ background: -moz-linear-gradient( rgba(0,128,0,0.6), rgba(255, 255, 255, 0) 100%); 
+
+
+
+
    height:300px;
     overflow: visible;
     opacity:1;
     display: block;
-/* padding-top:60px !important; */
 z-index:100
+} */
+
+
+.navbar{
+  
+
+/* 
+  background:linear-gradient( rgba(0,128,0,0.6), rgba(255, 255, 255, 0) 100%);
+
+ background: -moz-linear-gradient( rgba(0,128,0,0.6), rgba(255, 255, 255, 0) 100%);  */
+
+
+/* background-color:rgba(0,128,0,0.6); */
+   height:300px;
+    overflow: visible;
+    opacity:1;
+    display: block;
+z-index:10
 }
+
 
 
 #navbar a{
@@ -306,9 +360,9 @@ cursor: pointer;
     padding: 5px;
     background-color: inherit;
     margin-bottom:45px;
-
-    color:white!important ;
-
+font-family:mm;
+    color:black !important;
+    /* text-shadow:1px 1px darkgreen !important; */
   }
 
   .dropdown2 .dropbtn2 a {
@@ -320,8 +374,8 @@ cursor: pointer;
     background-color: inherit;
     margin-bottom:45px !important;
 
-    color:white !important ;
-
+font-family:mm;
+    color:black !important;
   }
 
 
@@ -446,6 +500,10 @@ body{
     border-radius: 10px;
     overflow: hidden;
 }
+.mainMenu a{
+  font-size:20px !important;
+  font-weight:bold !important;
+}
 .item{
     border-top: 1px solid orange;
     overflow: hidden;
@@ -478,11 +536,13 @@ body{
     font-size: 13px;
 }
 .subMenu{
-    background:orange !important;
+    background:rgb(158, 104, 3) !important;
       overflow: hidden;
       /* display: none; */
     transition: max-height 0.7s;
 max-height: 0;
+z-index:300000000 !important;
+position:relative !important;
 
 }
 .subMenu a{
@@ -693,7 +753,7 @@ a .tor:hover{
   color:white;
   font-weight:bold;
   padding-top:10px;
-  box-shadow:4px 4px 4px 4px black;
+  /* box-shadow:4px 4px 4px 4px black; */
   cursor: pointer;
   /* font-family: mm !important;        */
 
@@ -701,7 +761,7 @@ a .tor:hover{
 
 
  #apply:hover{
-    box-shadow:6px 6px 6px 6px grey;
+    box-shadow:0px 0px 2px 2px orange;
 
 }
 
@@ -739,7 +799,7 @@ height:250px;
   background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0,128,0,0.6)100%);
   background-image:-moz-linear-gradient(rgba(255, 255, 255, 0), rgba(0,128,0,0.6)100%);
 margin-top:-15px;
-margin-top:-240px;
+margin-top:-235px;
 z-index:1000;
 position:relative
 
@@ -754,30 +814,9 @@ position:relative
 } */
 
 #drop-pin:hover{
-  margin-bottom:10px !important;
+  margin-bottom:20px !important;
   transition:500ms;
 }
-.ball{
-  
-    animation: bounce 0.5s cubic-bezier(0.5, 0.05, 1, 0.5);
-}
-
-.ball {
-         
-            animation: bounce 0.5s;
-            animation-direction: alternate;
-            animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
-            animation-iteration-count: infinite;
-        }
-          
-        @keyframes bounce {
-            from {
-                transform: translate3d(0, 0, 0);
-            }
-            to {
-                transform: translate3d(0, 200px, 0);
-            }
-        }
 
         .grid{
     height:60px;
@@ -1402,6 +1441,7 @@ font-size:10px;
    background-color:rgba(255, 255, 255, 1) !important;
    text-decoration:none;
 text-shadow:2px 2px orange;
+border:none !important;
  }
 .tabL a{
   color:darkgreen !important;
