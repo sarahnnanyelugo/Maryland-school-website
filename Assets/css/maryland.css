@@ -146,7 +146,10 @@ margin-top:-37px !important;
 }
 .more{
   margin-left:75px !important;
-  margin-top:-100px !important
+ 
+}
+#foot{
+  margin-top:100px !important;
 }
 }
 
@@ -1463,9 +1466,9 @@ border:none !important;
 }
 
 .more{
-  height:55px !important;
+  height:55px ;
   border:solid 1px orange !important;
-  width:220px !important;
+  width:220px ;
   border-radius:40px !important; 
   margin-bottom:50px !important;
    font-family: mm2 !important;   
