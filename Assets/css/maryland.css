@@ -144,6 +144,10 @@ margin-top:-37px !important;
 .esb{
   margin-left:110px !important;
 }
+.more{
+  margin-left:75px !important;
+  margin-top:-100px !important
+}
 }
 
 
@@ -751,13 +755,14 @@ a .tor:hover{
 
 #apply{
   height:130px;
-  background-color:rgb(4, 66, 4) ;
+  background-color:inherit ;
   color:white;
   font-weight:bold;
   padding-top:10px;
   /* box-shadow:4px 4px 4px 4px black; */
   cursor: pointer;
   /* font-family: mm !important;        */
+  border:solid 1px white;
 
   }
 
@@ -1463,7 +1468,9 @@ border:none !important;
   width:220px !important;
   border-radius:40px !important; 
   margin-bottom:50px !important;
-   font-family: mm2 !important;       
+   font-family: mm2 !important;   
+   color:black !important;
+   padding-left: 55px !important;    
 
 }
 .more:hover{
